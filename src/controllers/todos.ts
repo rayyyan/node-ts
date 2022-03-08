@@ -8,3 +8,7 @@ export const createTodo: RequestHandler = (req, res, next) => {
   TODOS.push(NewTodo)
   res.status(201).json({ message: "created the todo.", createdTodo: NewTodo })
 }
+
+export const getTodos: RequestHandler = (req, res, next) => {
+  res.json({ todos: TODOS })
+}
