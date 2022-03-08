@@ -4,7 +4,7 @@
   "description": "refresher",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "nodemon dist/app.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -12,6 +12,8 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
     "nodemon": "^2.0.15"
   }
 }
