@@ -1,0 +1,17 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "description": "refresher",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
